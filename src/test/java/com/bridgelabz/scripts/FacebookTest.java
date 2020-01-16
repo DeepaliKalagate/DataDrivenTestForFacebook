@@ -9,21 +9,21 @@
  ******************************************************************************/
 package com.bridgelabz.scripts;
 
-import com.bridgelabz.base.BaseTest;
-import com.bridgelabz.pompages.LoginPage;
-import com.bridgelabz.properties.Library;
+import com.bridgelabz.driver.Browser;
+import com.bridgelabz.model.LoginPage;
+import com.bridgelabz.controller.DataDriven;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 
-public class FacebookTest extends BaseTest
+public class FacebookTest extends Browser
 {
     @DataProvider(name = "testData")
     public Object[][] getData()
     {
-        Library config = new Library(EXCELPATH);
+        DataDriven config = new DataDriven(EXCELPATH);
         int rows = config.getrowcount(0);
         Object[][] credentials = new Object[rows][2];
 
@@ -44,7 +44,7 @@ public class FacebookTest extends BaseTest
             loginPage.setUsername(userName);
             loginPage.setPassword(password);
             loginPage.clickLogin();
-            loginPage.takeScreenshotAtEndOfTest();
+            loginPage.screenshot();
         }
         catch (IOException e)
         {

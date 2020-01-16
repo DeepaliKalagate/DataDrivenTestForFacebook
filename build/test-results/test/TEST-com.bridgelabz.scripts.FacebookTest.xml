@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.scripts.FacebookTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-16T05:58:01" hostname="admin123-desktop" time="41.439">
+<testsuite name="com.bridgelabz.scripts.FacebookTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-16T10:26:51" hostname="admin123-desktop" time="66.97">
   <properties/>
-  <testcase name="loginPageTest[0](prajktaRaut16@gmail.com, admin123)" classname="com.bridgelabz.scripts.FacebookTest" time="4.746"/>
-  <testcase name="loginPageTest[1](9764324126, lokeshdeepali)" classname="com.bridgelabz.scripts.FacebookTest" time="3.432"/>
-  <testcase name="loginPageTest[2](8412989861, omsai@123)" classname="com.bridgelabz.scripts.FacebookTest" time="3.364"/>
-  <testcase name="loginPageTest[3](8412989861, lokesh@84)" classname="com.bridgelabz.scripts.FacebookTest" time="15.025"/>
+  <testcase name="loginPageTest[0](prajktaRaut16@gmail.com, admin123)" classname="com.bridgelabz.scripts.FacebookTest" time="4.474"/>
+  <testcase name="loginPageTest[1](9764324126, lokeshdeepali)" classname="com.bridgelabz.scripts.FacebookTest" time="2.33"/>
+  <testcase name="loginPageTest[2](8412989861, omsai@123)" classname="com.bridgelabz.scripts.FacebookTest" time="2.859"/>
+  <testcase name="loginPageTest[3](8412989861, lokesh@84)" classname="com.bridgelabz.scripts.FacebookTest" time="35.617"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 25369
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 27420
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579154277.954][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Jan 16, 2020 11:27:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 16, 2020 3:56:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 23611
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 12545
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579154288.813][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Jan 16, 2020 11:28:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 16, 2020 3:56:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 1805
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 26356
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579154296.660][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Jan 16, 2020 11:28:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 16, 2020 3:57:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 24662
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 7822
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579154304.386][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Jan 16, 2020 11:28:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 16, 2020 3:57:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

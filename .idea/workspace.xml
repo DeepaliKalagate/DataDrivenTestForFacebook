@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9302c7bb-3002-4718-9169-ddc1aa139f79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/constantpaths/IAutoConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/constantpaths/IAutoConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/base/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/constantpaths/IAutoConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/pompages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/properties/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/scripts/FacebookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/scripts/FacebookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.scripts.FacebookTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.scripts.FacebookTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.scripts.FacebookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.scripts.FacebookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/driver/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/constantpaths/IAutoConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/constantpaths/IConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pompages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pompages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/properties/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/controller/DataDriven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/scripts/FacebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/scripts/FacebookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +63,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebApplicationTest-Selenium" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -47,13 +77,13 @@
       <recent name="com.bridgelabz.base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Config" />
       <recent name="$PROJECT_DIR$/Driver" />
+      <recent name="$PROJECT_DIR$/Config" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/testData" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.FacebookTest">
     <configuration name="FacebookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -74,9 +104,30 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FacebookTest.loginPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.scripts.FacebookTest.loginPageTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FacebookTest" />
+        <item itemvalue="Gradle.FacebookTest.loginPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579152632302</updated>
-      <workItem from="1579152636767" duration="3275000" />
+      <workItem from="1579152636767" duration="11185000" />
     </task>
     <servers />
   </component>
@@ -114,21 +165,29 @@
       <screen x="67" y="27" width="957" height="741" />
     </state>
     <state x="229" y="201" width="623" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.957.741@67.27.957.741" timestamp="1579153536538" />
-    <state width="911" height="175" key="GridCell.Tab.0.bottom" timestamp="1579154377536">
+    <state x="353" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1579169626873">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.bottom/67.27.957.741@67.27.957.741" timestamp="1579154377536" />
-    <state width="911" height="175" key="GridCell.Tab.0.center" timestamp="1579154377536">
+    <state x="353" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.957.741@67.27.957.741" timestamp="1579169626873" />
+    <state x="328" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579170208510">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.center/67.27.957.741@67.27.957.741" timestamp="1579154377536" />
-    <state width="911" height="175" key="GridCell.Tab.0.left" timestamp="1579154377535">
+    <state x="328" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.957.741@67.27.957.741" timestamp="1579170208510" />
+    <state width="911" height="2" key="GridCell.Tab.0.bottom" timestamp="1579170404356">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.left/67.27.957.741@67.27.957.741" timestamp="1579154377535" />
-    <state width="911" height="175" key="GridCell.Tab.0.right" timestamp="1579154377536">
+    <state width="911" height="2" key="GridCell.Tab.0.bottom/67.27.957.741@67.27.957.741" timestamp="1579170404356" />
+    <state width="911" height="2" key="GridCell.Tab.0.center" timestamp="1579170404356">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.right/67.27.957.741@67.27.957.741" timestamp="1579154377536" />
+    <state width="911" height="2" key="GridCell.Tab.0.center/67.27.957.741@67.27.957.741" timestamp="1579170404356" />
+    <state width="911" height="2" key="GridCell.Tab.0.left" timestamp="1579170404356">
+      <screen x="67" y="27" width="957" height="741" />
+    </state>
+    <state width="911" height="2" key="GridCell.Tab.0.left/67.27.957.741@67.27.957.741" timestamp="1579170404356" />
+    <state width="911" height="2" key="GridCell.Tab.0.right" timestamp="1579170404356">
+      <screen x="67" y="27" width="957" height="741" />
+    </state>
+    <state width="911" height="2" key="GridCell.Tab.0.right/67.27.957.741@67.27.957.741" timestamp="1579170404356" />
   </component>
 </project>
