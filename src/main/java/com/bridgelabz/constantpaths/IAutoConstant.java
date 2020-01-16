@@ -12,7 +12,7 @@ package com.bridgelabz.constantpaths;
 
 public interface IAutoConstant
 {
-    String CONFIGPATH = "https://www.facebook.com/";
+    String CONFIGPATH = "Config/config.properties";
     String CHROMEKEY = "webdriver.chrome.driver";
     String CHROMEVALUE = "Driver/chromedriver";
     String GECKOKEY = "webdriver.gecko.driver";
