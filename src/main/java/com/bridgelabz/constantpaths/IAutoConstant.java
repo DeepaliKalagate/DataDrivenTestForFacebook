@@ -14,8 +14,8 @@ public interface IAutoConstant
 {
     String CONFIGPATH = "https://www.facebook.com/";
     String CHROMEKEY = "webdriver.chrome.driver";
-    String CHROMEVALUE = "Drivers/chromedriver";
+    String CHROMEVALUE = "Driver/chromedriver";
     String GECKOKEY = "webdriver.gecko.driver";
-    String GECKOVALUE = "Drivers/geckodriver";
+    String GECKOVALUE = "Driver/geckodriver";
     String EXCELPATH = "testData/LoginData.xlsx";
 }

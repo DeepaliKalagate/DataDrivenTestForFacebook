@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9302c7bb-3002-4718-9169-ddc1aa139f79" name="Default Changelist" comment="" />
+    <list default="true" id="9302c7bb-3002-4718-9169-ddc1aa139f79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/geckodriver" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +15,11 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WSp188kUwgn7NlkbUVXWrto885" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Driver" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -87,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579152632302</updated>
-      <workItem from="1579152636767" duration="1149000" />
+      <workItem from="1579152636767" duration="1476000" />
     </task>
     <servers />
   </component>
@@ -99,21 +106,21 @@
       <screen x="67" y="27" width="957" height="741" />
     </state>
     <state x="229" y="201" width="623" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.957.741@67.27.957.741" timestamp="1579153536538" />
-    <state width="911" height="175" key="GridCell.Tab.0.bottom" timestamp="1579153821257">
+    <state width="911" height="175" key="GridCell.Tab.0.bottom" timestamp="1579154276042">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.bottom/67.27.957.741@67.27.957.741" timestamp="1579153821257" />
-    <state width="911" height="175" key="GridCell.Tab.0.center" timestamp="1579153821257">
+    <state width="911" height="175" key="GridCell.Tab.0.bottom/67.27.957.741@67.27.957.741" timestamp="1579154276042" />
+    <state width="911" height="175" key="GridCell.Tab.0.center" timestamp="1579154276042">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.center/67.27.957.741@67.27.957.741" timestamp="1579153821257" />
-    <state width="911" height="175" key="GridCell.Tab.0.left" timestamp="1579153821256">
+    <state width="911" height="175" key="GridCell.Tab.0.center/67.27.957.741@67.27.957.741" timestamp="1579154276042" />
+    <state width="911" height="175" key="GridCell.Tab.0.left" timestamp="1579154276041">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.left/67.27.957.741@67.27.957.741" timestamp="1579153821256" />
-    <state width="911" height="175" key="GridCell.Tab.0.right" timestamp="1579153821257">
+    <state width="911" height="175" key="GridCell.Tab.0.left/67.27.957.741@67.27.957.741" timestamp="1579154276041" />
+    <state width="911" height="175" key="GridCell.Tab.0.right" timestamp="1579154276042">
       <screen x="67" y="27" width="957" height="741" />
     </state>
-    <state width="911" height="175" key="GridCell.Tab.0.right/67.27.957.741@67.27.957.741" timestamp="1579153821257" />
+    <state width="911" height="175" key="GridCell.Tab.0.right/67.27.957.741@67.27.957.741" timestamp="1579154276042" />
   </component>
 </project>
