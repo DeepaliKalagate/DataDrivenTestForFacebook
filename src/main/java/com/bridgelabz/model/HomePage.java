@@ -1,7 +1,17 @@
-package com.bridgelabz.model;
 
+/******************************************************************************
+ *
+ *  Author  Deepali Kalagate
+ *
+ *  Purpose: Test for Facebook Home page after Login to Facebook.
+ *  @since   15-01-2020
+ *
+ ******************************************************************************/
+
+package com.bridgelabz.model;
 import com.bridgelabz.driver.Browser;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,15 +21,21 @@ import org.testng.annotations.Test;
     @Test
     public class HomePage extends Browser
     {
-        //plus-div
-        @FindBy(xpath="//div[@id='js_19']")
-        private WebElement clickAdd;
+        @FindBy(xpath = "//div[@class='clearfix _ikh _1hx']")
+        private WebElement creatPostOption;
 
-        @FindBy(xpath="//input[@id='js_2kd']")
-        private WebElement addSTORY;
+        @FindBy(xpath = " //div[@class='_1mf _1mj']")
+        private WebElement creatPostText;
 
-        @FindBy(xpath="//span[contains(text(),'Post')]")
-        private WebElement postButton;
+        @FindBy(xpath = "//button[@class='_1mf7 _4r1q _4jy0 _4jy3 _4jy1 _51sy selected _42ft' and @type='submit']")
+        private WebElement clickOnCreatePostClickButton;
+
+        @FindBy(xpath = "//div[@id='userNavigationLabel']")
+        private WebElement dragDownToLogoutButton;
+
+        @FindBy(id="logoutbutton")
+        private WebElement logoutButton;
+
 
         //constructor
         public HomePage(WebDriver driver)
@@ -29,18 +45,27 @@ import org.testng.annotations.Test;
         }
 
         //Utilization
-        public void clickAddbtn()
+        public void clickCreatePostButton()
         {
-            clickAdd.click();
+            creatPostOption.click();
         }
 
         public void clickAddStory()
         {
-            addSTORY.click();
+            creatPostText.sendKeys("Hello Friends.....");
         }
 
         public void clickPost()
         {
-            postButton.click();
+            clickOnCreatePostClickButton.click();
         }
-}
+        public void dragDown()
+        {
+            dragDownToLogoutButton.click();
+        }
+
+        public void clickOnLogoutButton()
+        {
+            logoutButton.click();
+        }
+    }

@@ -11,40 +11,45 @@
 package com.bridgelabz.driver;
 import com.bridgelabz.constantpaths.IConstants;
 import com.bridgelabz.property.Library;
-import com.bridgelabz.listener.ListenerClass;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
+@Listeners
 public class Browser implements IConstants
 {
-    String methodName=null;
     public static WebDriver driver = null;
-    ListenerClass eventListener;
+    public static EventFiringWebDriver eventListener;
     ChromeOptions options = new ChromeOptions();
 
     // for launching the browser
+
     @BeforeMethod(description = "load driver for test")
-    public void setUp(Method method)
+    public void setUp()
     {
-        methodName=method.getName();
-        options.addArguments("--disable-notifications");
-        System.setProperty(CHROMEKEY,CHROMEVALUE);
-        driver = new ChromeDriver(options);
-        String url = Library.getProperty(CONFIGPATH, "URL");
-        eventListener=new ListenerClass();
-        driver.get(url);
+           options.addArguments("--disable-notifications");
+           System.setProperty(CHROMEKEY, CHROMEVALUE);
+           driver = new ChromeDriver(options);
+           String url = Library.getProperty(CONFIGPATH, "URL");
+           driver.manage().window().maximize();
+           driver.manage().deleteAllCookies();
+           driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+           driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+           eventListener = new EventFiringWebDriver(driver);
+           driver.get(url);
     }
 
     /**
@@ -54,8 +59,8 @@ public class Browser implements IConstants
     {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        String fileName =  new SimpleDateFormat("yyyy/MM/dd-hh:mm:ss'.png'").format(new Date());
-        File destinationFile = new File("Screenshots.png"+fileName);
+        String date =  new SimpleDateFormat("yyyy/MM/dd-hh:mm:ss'.png'").format(new Date());
+        File destinationFile = new File("screenshots.png"+date);
         FileUtils.copyFile(sourceFile, destinationFile);
     }
 

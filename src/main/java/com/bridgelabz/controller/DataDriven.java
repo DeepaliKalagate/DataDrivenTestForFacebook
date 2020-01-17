@@ -12,6 +12,8 @@ package com.bridgelabz.controller;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -25,6 +27,7 @@ public class DataDriven
     XSSFWorkbook workbook;
     XSSFSheet sheet;
 
+    public static Workbook wb;
     public DataDriven(String excelPath)
     {
         File file = new File(excelPath);
@@ -58,4 +61,7 @@ public class DataDriven
         ++rowNum;
         return rowNum;
     }
+
+
+
 }
