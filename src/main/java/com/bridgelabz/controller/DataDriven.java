@@ -45,9 +45,8 @@ public class DataDriven
         }
     }
 
-    public String getData(int sheetNumber, int row, int column)
-    {
-        this.sheet = this.workbook.getSheetAt(0);
+    public String getData(int index, int row, int column)
+    {        this.sheet = this.workbook.getSheetAt(index);
         Cell cell = this.sheet.getRow(row).getCell(column);
         cell.setCellType(CellType.STRING);
         String data = cell.getStringCellValue();

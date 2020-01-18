@@ -9,6 +9,7 @@
  ******************************************************************************/
 
 package com.bridgelabz.driver;
+
 import com.bridgelabz.constantpaths.IConstants;
 import com.bridgelabz.property.Library;
 import org.apache.commons.io.FileUtils;
@@ -19,9 +20,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 

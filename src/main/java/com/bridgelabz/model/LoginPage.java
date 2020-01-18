@@ -35,6 +35,12 @@ public class LoginPage extends Browser
     @FindBy(xpath="//input[@id='u_0_b']")
     private WebElement loginBtn;
 
+    @FindBy(xpath = "//div[@id='userNavigationLabel']")
+    private WebElement dragDownToLogoutButton;
+
+    @FindBy(xpath="//li[@class='_54ni navSubmenu _6398 _64kz __MenuItem _54ne selected']")
+    private WebElement logoutButton;
+
     //Initialization
     public LoginPage(WebDriver driver)
     {
@@ -55,6 +61,16 @@ public class LoginPage extends Browser
     public void clickLogin()
     {
         loginBtn.click();
+    }
+
+    public void dragDown()
+    {
+        dragDownToLogoutButton.click();
+    }
+
+    public void clickOnLogoutButton()
+    {
+        logoutButton.click();
     }
 
 }

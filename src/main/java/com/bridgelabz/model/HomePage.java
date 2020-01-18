@@ -18,7 +18,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-@Test
 public class HomePage extends Browser
 {
     @FindBy(xpath = "//div[@class='clearfix _ikh _1hx']")
@@ -33,7 +32,7 @@ public class HomePage extends Browser
     @FindBy(xpath = "//div[@id='userNavigationLabel']")
     private WebElement dragDownToLogoutButton;
 
-    @FindBy(id="logoutbutton")
+    @FindBy(xpath="//li[@class='_54ni navSubmenu _6398 _64kz __MenuItem _54ne selected']")
     private WebElement logoutButton;
 
 
@@ -52,7 +51,7 @@ public class HomePage extends Browser
 
     public void clickAddStory()
     {
-        creatPostText.sendKeys("Hello Friends.....");
+        creatPostText.sendKeys("Hello Friends");
     }
 
     public void clickPost()

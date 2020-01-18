@@ -8,7 +8,6 @@
  *
  ******************************************************************************/
 
-
 package com.bridgelabz.driver;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;

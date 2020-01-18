@@ -28,6 +28,7 @@ dependencies {
 dependencies {// https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.7.1'
 }
+
 test{
     useTestNG()
 }
