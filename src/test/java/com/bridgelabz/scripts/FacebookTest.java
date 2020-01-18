@@ -10,15 +10,15 @@
 package com.bridgelabz.scripts;
 
 import com.bridgelabz.driver.Browser;
+import com.bridgelabz.driver.TestNGListener;
 import com.bridgelabz.model.HomePage;
 import com.bridgelabz.model.LoginPage;
 import com.bridgelabz.controller.DataDriven;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
+@Listeners(TestNGListener.class)
 public class FacebookTest extends Browser
 {
     @DataProvider(name = "testData")
@@ -37,6 +37,7 @@ public class FacebookTest extends Browser
             } }
         return credentials;
     }
+
 
     @Test(dataProvider = "testData")
     public void loginPageTest(String userName,String password) throws InterruptedException {

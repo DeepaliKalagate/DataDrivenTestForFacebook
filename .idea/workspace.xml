@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9302c7bb-3002-4718-9169-ddc1aa139f79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,32 +12,34 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-03:56:55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-03:57:02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-03:57:13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-03:57:58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-11:28:06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-11:28:15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-11:28:23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots.png2020/01/16-11:28:42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/controller/DataDriven.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/controller/DataDriven.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/driver/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/driver/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/listener/ListenerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/listener/EventFiringWebDriver.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/model/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/model/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/model/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/model/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/model/RegisterPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/scripts/FacebookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/scripts/FacebookTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.scripts.FacebookTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.scripts.FacebookTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.scripts.FacebookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.scripts.FacebookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.scripts.FacebookTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.scripts.FacebookTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/controller/DataDriven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/controller/DataDriven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/driver/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/driver/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/listener/ListenerClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/listener/EventFiringWebDriver.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/model/RegisterPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/scripts/FacebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/scripts/FacebookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData/LoginData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/LoginData.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +79,9 @@
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.bridgelabz.listener" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bridgelabz.driver" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bridgelabz.scripts" />
@@ -140,7 +144,27 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.scripts.FacebookTest.loginPageTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.scripts.FacebookTest.loginPageTest&quot; --debug" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FacebookTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.scripts.FacebookTest.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -159,6 +183,7 @@
       <list>
         <item itemvalue="Gradle.FacebookTest" />
         <item itemvalue="Gradle.FacebookTest.loginPageTest" />
+        <item itemvalue="Gradle.FacebookTest.test" />
         <item itemvalue="Gradle.FacebookTest.facebooktest" />
       </list>
     </recent_temporary>
@@ -186,7 +211,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579152632302</updated>
       <workItem from="1579152636767" duration="23700000" />
-      <workItem from="1579235426508" duration="21946000" />
+      <workItem from="1579235426508" duration="26310000" />
+      <workItem from="1579319949275" duration="2620000" />
     </task>
     <servers />
   </component>
@@ -198,11 +224,19 @@
       <screen x="67" y="27" width="957" height="741" />
     </state>
     <state x="229" y="201" width="623" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.957.741@67.27.957.741" timestamp="1579153536538" />
-    <state x="455" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1579242044328">
+    <state x="455" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1579266582805">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="455" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1579242044328" />
+    <state x="455" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1579266582805" />
     <state x="353" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.957.741@67.27.957.741" timestamp="1579169626873" />
+    <state x="449" y="180" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579269344985">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="180" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog/67.27.1299.741@67.27.1299.741" timestamp="1579269344985" />
+    <state x="469" y="257" width="643" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579269346113">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="469" y="257" width="643" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1579269346113" />
     <state x="473" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579250324723">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -215,29 +249,43 @@
       <screen x="67" y="27" width="957" height="741" />
     </state>
     <state x="328" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.957.741@67.27.957.741" timestamp="1579170208510" />
-    <state width="1253" height="164" key="GridCell.Tab.0.bottom" timestamp="1579264095277">
+    <state width="1253" height="446" key="GridCell.Tab.0.bottom" timestamp="1579323902149">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="164" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579264095277" />
+    <state width="1253" height="446" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579323902149" />
     <state width="911" height="2" key="GridCell.Tab.0.bottom/67.27.957.741@67.27.957.741" timestamp="1579170515648" />
-    <state width="1253" height="164" key="GridCell.Tab.0.center" timestamp="1579264095276">
+    <state width="1253" height="446" key="GridCell.Tab.0.center" timestamp="1579323902144">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="164" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579264095276" />
+    <state width="1253" height="446" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579323902144" />
     <state width="911" height="2" key="GridCell.Tab.0.center/67.27.957.741@67.27.957.741" timestamp="1579170515648" />
-    <state width="1253" height="164" key="GridCell.Tab.0.left" timestamp="1579264095275">
+    <state width="1253" height="446" key="GridCell.Tab.0.left" timestamp="1579323902143">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="164" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579264095275" />
+    <state width="1253" height="446" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579323902143" />
     <state width="911" height="2" key="GridCell.Tab.0.left/67.27.957.741@67.27.957.741" timestamp="1579170515647" />
-    <state width="1253" height="164" key="GridCell.Tab.0.right" timestamp="1579264095276">
+    <state width="1253" height="446" key="GridCell.Tab.0.right" timestamp="1579323902144">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="164" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579264095276" />
+    <state width="1253" height="446" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579323902144" />
     <state width="911" height="2" key="GridCell.Tab.0.right/67.27.957.741@67.27.957.741" timestamp="1579170515648" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1579236219812">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1579319952254">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579236219812" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579319952254" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/driver/Browser.java</url>
+          <line>53</line>
+          <properties class="com.bridgelabz.driver.Browser" method="screenshot">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,22 +17,18 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-@Listeners
 public class Browser implements IConstants
 {
     public static WebDriver driver = null;
-    public static EventFiringWebDriver eventListener;
+    public static TestNGListener eventListener;
     ChromeOptions options = new ChromeOptions();
 
     // for launching the browser
@@ -48,19 +44,19 @@ public class Browser implements IConstants
            driver.manage().deleteAllCookies();
            driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-           eventListener = new EventFiringWebDriver(driver);
+           eventListener = new TestNGListener(driver);
            driver.get(url);
     }
 
     /**
      * for take the screenshot
      */
-    public void screenshot() throws IOException
+    public void screenshot(String TestName) throws IOException
     {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        String date =  new SimpleDateFormat("yyyy/MM/dd-hh:mm:ss'.png'").format(new Date());
-        File destinationFile = new File("screenshots.png"+date);
+      Date date=new Date();
+        File destinationFile = new File("/home/admin123/DataDrivenTestForFacebook/Screenshots.png2020/"+date.toString());
         FileUtils.copyFile(sourceFile, destinationFile);
     }
 
